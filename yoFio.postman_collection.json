@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "8fafa4ec-64f9-4be3-bf5f-a554ac566a6d",
+		"name": "yoFio",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AssignCreditUseCase",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Investment\":2000\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/credit-assignement",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"credit-assignement"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
